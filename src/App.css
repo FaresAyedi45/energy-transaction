@@ -85,17 +85,16 @@
 }
 
 .contact-button {
-  background-color: #008241; /* Vert */
-  color: white;
+  background-color: #008241; 
   border: none;
-  padding: 10px 20px; /* Diminue la taille du bouton */
-  font-size: 20px; /* Diminue la taille de la police */
+  padding: 10px 20px; 
+  font-size: 20px; 
   border-radius: 25px;
   cursor: pointer;
 }
 
 .contact-button:hover {
-  background-color: #006b34; /* Couleur au survol */
+  background-color: #006b34; 
 }
 
 .battery-list {
@@ -155,7 +154,7 @@
 }
 
 .button:hover {
-  background-color: #006b34; /* Couleur au survol */
+  background-color: #006b34; 
   transform: translateY(-2px);
 }
 .back-button {

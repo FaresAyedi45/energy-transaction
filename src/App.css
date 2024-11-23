@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0e0e0;
+  padding: 10px 20px;
+  border-radius: 12px; 
+  border: 2px solid #ccc; 
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  height: 120px; 
+  margin-right: 10px;
+}
+
+.navbar .nav-links {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-grow: 1; 
+}
+
+.navbar .nav-links a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin: 0  px; 
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  font-size: 18px; 
+}
+
+.navbar .nav-links a.active {
+  color: #008241; /* Vert */
+}
+
+.navbar .nav-links a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.icon-user,
+.icon-help {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+/* Title */
+.title {
+  background-color: #e0e0e0;
+  border: 2px solid #ccc;
+  padding: 5px 20px; 
+  border-radius: 18px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+/* Footer */
+.footer {
+  margin-top: 15px;
+  padding: 5px;
+  background-color: #e0e0e0;
+  text-align: center;
+  border-radius: 18px; 
+  border: 2px solid #ccc; 
+  font-size: 18px; 
+
+  margin-left: 200px;
+  margin-right: 200px;
+  
+
+}
+
+.contact-button {
+  background-color: #008241; /* Vert */
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Diminue la taille du bouton */
+  font-size: 20px; /* Diminue la taille de la police */
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #006b34; /* Couleur au survol */
+}
+
+.battery-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.battery-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 240px;
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.battery-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.battery-card h3 {
+  color: #333;
+  font-size: 1.4em;
+  margin-bottom: 30px;
+}
+
+.battery-card p {
+  color: #555;
+  margin: 8px 0;
+  font-size: 1em;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.button {
+  background-color: #008241; /* Vert */
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 0 auto; /* Centre le bouton */
+}
+
+.button:hover {
+  background-color: #006b34; /* Couleur au survol */
+  transform: translateY(-2px);
+}
+.back-button {
+  position: absolute;
+  top: 190px;
+  left: 40px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+  transform: rotate(-45deg);
+}
+
+.back-button:hover {
+  background-color: #f0f0f0;
+}
